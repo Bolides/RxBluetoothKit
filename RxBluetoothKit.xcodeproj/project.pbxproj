@@ -1004,8 +1004,8 @@
 		A1299BB41CBE3D52005DEA5B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Polidea;
 				TargetAttributes = {
 					0A7B27C61F9F1682003F950E = {
@@ -1315,6 +1315,9 @@
 				1D6E36C820A07057009900A6 /* ManagerType.swift in Sources */,
 				2666FE371CCE4732005E81CE /* DeviceIdentifiers.swift in Sources */,
 				26EF38C91D86EE1F00F9F468 /* BluetoothState.swift in Sources */,
+				2666FE471CCE4732005E81CE /* RxCentralManagerType.swift in Sources */,
+				2666FE301CCE4732005E81CE /* RxDescriptorType.swift in Sources */,
+				2666FE461CCE4732005E81CE /* ScanOperation.swift in Sources */,
 				1D73E83820A3289B009167AA /* StartAdvertisingResult.swift in Sources */,
 				BB2FF3351F9EAF2B00A12E10 /* CBCentralManagerDelegateWrapper.swift in Sources */,
 				2666FE351CCE4732005E81CE /* Peripheral.swift in Sources */,
@@ -1913,6 +1916,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1968,6 +1972,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
