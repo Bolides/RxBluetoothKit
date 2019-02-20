@@ -1030,7 +1030,7 @@
 			};
 			name = Release;
 		};
-		FD61D913221C70A000CC87F8 /* TestRelease */ = {
+		FD61D913221C70A000CC87F8 /* BetaRelease */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1093,9 +1093,9 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = TestRelease;
+			name = BetaRelease;
 		};
-		FD61D914221C70A000CC87F8 /* TestRelease */ = {
+		FD61D914221C70A000CC87F8 /* BetaRelease */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -1114,9 +1114,9 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 			};
-			name = TestRelease;
+			name = BetaRelease;
 		};
-		FD61D915221C70A000CC87F8 /* TestRelease */ = {
+		FD61D915221C70A000CC87F8 /* BetaRelease */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -1126,9 +1126,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
-			name = TestRelease;
+			name = BetaRelease;
 		};
-		FD61D916221C70A000CC87F8 /* TestRelease */ = {
+		FD61D916221C70A000CC87F8 /* BetaRelease */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -1149,9 +1149,9 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 			};
-			name = TestRelease;
+			name = BetaRelease;
 		};
-		FD61D917221C70A000CC87F8 /* TestRelease */ = {
+		FD61D917221C70A000CC87F8 /* BetaRelease */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
@@ -1164,7 +1164,7 @@
 				SDKROOT = macosx;
 				SWIFT_VERSION = 4.0;
 			};
-			name = TestRelease;
+			name = BetaRelease;
 		};
 		FD84BA8D2209CE19000B86BC /* Local */ = {
 			isa = XCBuildConfiguration;
@@ -1317,7 +1317,7 @@
 				2666FD961CCE457C005E81CE /* Debug */,
 				FD84BA8E2209CE19000B86BC /* Local */,
 				2666FD971CCE457C005E81CE /* Release */,
-				FD61D914221C70A000CC87F8 /* TestRelease */,
+				FD61D914221C70A000CC87F8 /* BetaRelease */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1328,7 +1328,7 @@
 				2666FD991CCE457C005E81CE /* Debug */,
 				FD84BA8F2209CE19000B86BC /* Local */,
 				2666FD9A1CCE457C005E81CE /* Release */,
-				FD61D915221C70A000CC87F8 /* TestRelease */,
+				FD61D915221C70A000CC87F8 /* BetaRelease */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1339,7 +1339,7 @@
 				2666FDB51CCE4626005E81CE /* Debug */,
 				FD84BA902209CE19000B86BC /* Local */,
 				2666FDB61CCE4626005E81CE /* Release */,
-				FD61D916221C70A000CC87F8 /* TestRelease */,
+				FD61D916221C70A000CC87F8 /* BetaRelease */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1350,7 +1350,7 @@
 				2666FDB81CCE4626005E81CE /* Debug */,
 				FD84BA912209CE19000B86BC /* Local */,
 				2666FDB91CCE4626005E81CE /* Release */,
-				FD61D917221C70A000CC87F8 /* TestRelease */,
+				FD61D917221C70A000CC87F8 /* BetaRelease */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1361,7 +1361,7 @@
 				A1299BCF1CBE3D52005DEA5B /* Debug */,
 				FD84BA8D2209CE19000B86BC /* Local */,
 				A1299BD01CBE3D52005DEA5B /* Release */,
-				FD61D913221C70A000CC87F8 /* TestRelease */,
+				FD61D913221C70A000CC87F8 /* BetaRelease */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
